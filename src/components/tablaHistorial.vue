@@ -180,7 +180,7 @@ export default {
     },
     getData() {
       let url =
-        "http://190.121.135.158/almacen/getNovedades.php?categoria=" +
+        "https://hvequipos.000webhostapp.com/getNovedades.php?categoria=" +
         this.categoria +
         "&id=" +
         this.id;

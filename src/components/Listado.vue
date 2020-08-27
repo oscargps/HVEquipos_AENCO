@@ -192,7 +192,7 @@ export default {
         });
         return;
       }
-      let url = "http://190.121.135.158/almacen/addNovedad.php";
+      let url = "https://hvequipos.000webhostapp.com/addNovedad.php";
       let formData = new FormData();
       formData.append("categoria", this.categoria);
       formData.append("id", this.novedad_form.id);

@@ -202,7 +202,7 @@ export default {
       this.categoria = categoria
       console.log("Getting data of " + categoria);
       let url =
-        "http://190.121.135.158/almacen/getData.php?categoria=" + categoria;
+        "https://hvequipos.000webhostapp.com/getData.php?categoria=" + categoria;
       console.log(url);
 
       return axios
