@@ -166,7 +166,7 @@ export default {
     },
     getPersonal() {
       return axios
-        .get("http://190.121.135.158/almacen/getPersonal.php")
+        .get("https://hvequipos.000webhostapp.com/getPersonal.php")
         .then(response => {
           this.trabajadores = response.data;
         })
